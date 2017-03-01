@@ -13,7 +13,7 @@ namespace asp_mvc_2.Models.ViewModel
         public int LOOKUPRoleID { get; set; }
         public string RoleName { get; set; }
         [Required(ErrorMessage = "*")]
-        [Display(Name = "Login ID")]
+        [Display(Name = "Login ID")
         public string LoginName { get; set; }
         [Required(ErrorMessage = "*")]
         [Display(Name = "Password")]
