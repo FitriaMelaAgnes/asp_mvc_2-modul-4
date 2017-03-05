@@ -10,7 +10,7 @@ namespace asp_mvc_2.Models.ViewModel
     {
         [Key]
         public int SYSUserID { get; set; }
-        public int LOOKUPRoleID { get; set; }
+        public int LOOKUPRoleID { get; set; } 
         public string RoleName { get; set; }
         [Required(ErrorMessage = "*")]
         [Display(Name = "Login ID")
